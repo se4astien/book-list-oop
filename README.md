@@ -2,7 +2,7 @@
 
 Create a book list with JavaScript ES6
 
-Project build with pure JavaScript (No frameworks or libraries). 
+Project build with Object Oriented JavaScript (No frameworks or libraries). 
 
 Use Skeleton CSS for the front.
 
@@ -18,4 +18,4 @@ Use Skeleton CSS for the front.
 ```
 
 ## Deployment
-Project deploy on Netlify : https://task-list-js.netlify.com/
+Project deploy on Netlify : https://book-list-oop.netlify.com/
