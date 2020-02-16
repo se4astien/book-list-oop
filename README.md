@@ -1,4 +1,4 @@
-# Book List JavaScript ES6 With Local Storage
+# Book List JavaScript ES6 with Local Storage
 
 Create a book list with JavaScript ES6
 
