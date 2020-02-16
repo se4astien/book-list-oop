@@ -1,6 +1,6 @@
 # Book List JavaScript ES6 with Local Storage
 
-Create a book list with JavaScript ES6
+Create a book list with JavaScript ES6 and manipulate the DOM.
 
 Project build with Object Oriented JavaScript (No frameworks or libraries). 
 
