@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
-      integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg="
+    <script
+      src="https://kit.fontawesome.com/38d3ed091d.js"
       crossorigin="anonymous"
-    />
+    ></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
     <style>
       .success,
-      .error {
+      .danger {
         color: white;
         padding: 5px;
         margin: 5px 0 15px 0;
@@ -19,45 +18,52 @@
       .success {
         background-color: #008000;
       }
-      .error {
+      .danger {
         background-color: #ff0000;
       }
     </style>
     <title>Book List</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Add Book</h1>
+    <div class="container mt-4">
+      <h1 class="display-4 text-center">
+        <i class="fas fa-book-open text-primary"></i> My<span
+          class="text-primary"
+          >Book</span
+        >List
+      </h1>
       <form id="book-form">
-        <div>
+        <div class="form-group">
           <label for="title">Title</label>
-          <input type="text" id="title" class="u-full-width" />
+          <input type="text" id="title" class="form-control" />
         </div>
-        <div>
-          <label for="title">Author</label>
-          <input type="text" id="author" class="u-full-width" />
+        <div class="form-group">
+          <label for="author">Author</label>
+          <input type="text" id="author" class="form-control" />
         </div>
-        <div>
-          <label for="title">ISBN#</label>
-          <input type="text" id="isbn" class="u-full-width" />
+        <div class="form-group">
+          <label for="isbn">ISBN#</label>
+          <input type="text" id="isbn" class="form-control" />
         </div>
-        <div>
-          <input type="submit" value="Submit" class="u-full-width" />
-        </div>
+        <input
+          type="submit"
+          value="Add Book"
+          class="btn btn-primary btn-block"
+        />
       </form>
-      <table class="u-full-width">
+      <table class="table table-striped mt-5">
         <thead>
           <tr>
             <th>Title</th>
             <th>Author</th>
-            <th>ISBN</th>
+            <th>ISBN#</th>
             <th></th>
           </tr>
         </thead>
         <tbody id="book-list"></tbody>
       </table>
     </div>
-    <!-- <script src="app.js"></script> -->
-    <script src="appes6.js"></script>
+    <script src="main.js"></script>
+    <!-- <script src="maines6.js"></script> -->
   </body>
 </html>
