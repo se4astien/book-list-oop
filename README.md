@@ -1,13 +1,11 @@
-# Book List JavaScript ES6 with Local Storage
+## Book List JavaScript ES6 with Local Storage
 
-Create a book list with JavaScript ES6 and manipulate the Document Object Model (DOM).
-
-Project build with Object Oriented JavaScript (No frameworks or libraries). 
-
-Use Skeleton CSS for the front.
+* Create a book list with JavaScript ES6 and manipulate the DOM.
+* Project build with Object Oriented JavaScript. 
+* Use Bootswatch for the front.
 
 
-## What you can do
+## Project Specifications
 
 ```javascript
 
@@ -17,5 +15,9 @@ Use Skeleton CSS for the front.
 
 ```
 
-## Deployment
+## Online
 Project deploy on Netlify : https://book-list-oop.netlify.com/
+
+## Screenshot
+
+<img src="https://github.com/se4astien/book-list-v2-js/blob/master/screenshot/cover-booklist.png" alt="cover booklist app" width="70%" />
