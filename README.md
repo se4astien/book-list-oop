@@ -18,6 +18,3 @@
 ## Online
 Project deploy on Netlify : https://book-list-oop.netlify.com/
 
-## Screenshot
-
-<img src="https://github.com/se4astien/book-list-v2-js/blob/master/screenshot/cover-booklist.png" alt="cover booklist app" width="70%" />
